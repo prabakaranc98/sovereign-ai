@@ -27,6 +27,32 @@ The method scales the same way the question does:
 - **Startup / org** — mostly reconstructable: the experiments are small-scale replicas of enterprise decisions (host vs. rent, fine-tune vs. context-engineer, one provider vs. an abstraction layer), plus reading engineering postmortems as data.
 - **Nation** — not runnable, but still *engineerable*: the research-engineering move here is decomposition and estimation — take a "sovereign AI program" announcement apart into its bill of materials (compute, energy, talent, data, dependence graph) and check whether the numbers and dependencies close. Fermi engineering as a truth filter.
 
+## Two modes: thesis-driven and task-driven
+
+Research engineering runs in two distinct modes, and confusing them wastes both:
+
+- **Task-driven** — the idea already exists; the work is execution and scale. An instruction, a known technique, a design that needs to be made real, bigger, or reliable. The question is settled; the engineering is the deliverable. Most industrial research engineering is this mode, and it's honorable work — but it originates from someone else's settled question.
+- **Thesis-driven** — the origin is a thesis, a question, a curiosity *of your own*. The work is to prove it, scale it, bring it to reality. Nothing upstream hands you the direction; the bet itself is yours, and so is the risk of being wrong.
+
+For an **individual** — and this is the individual's version of sovereignty over their own work — thesis-driven is the mode that matters. A lone person executing task-driven work is a contractor for someone else's thesis. A lone person running thesis-driven work is a lab. The two modes still cooperate: once a thesis survives its first tests, *scaling it* becomes task-driven work in service of your own bet — which is exactly the right place for task-mode discipline to take over.
+
+This repo runs thesis-first: theses pick the direction; task-mode executes what the theses earn.
+
+## Thesis-driven, not survey-driven
+
+The center of the method. A landscape study has no natural stopping point — there is always another paper, another system, another week of orientation. The terminator is a **thesis**: understand enough to make a bet you could be wrong about, then stop studying and start testing.
+
+The cycle:
+1. **Frame holistically** — the systems view picks *where to cut*: which question, at which altitude, touching which dimension.
+2. **State the thesis** — one falsifiable sentence. If it can't come back wrong, it isn't a thesis; it's a vibe.
+3. **Execute reductively** — the smallest experiment that isolates one mechanism and can update or kill the estimate. Act on partial observation; don't wait for certainty that never comes.
+4. **Metabolize in public** — the result isn't real until it's written and shipped. Unwritten learning didn't update the estimate.
+5. **Finish to external compounding** — the finish line is the work being used, cited, followed, argued with — not the build compiling.
+
+Order matters: holistic in framing, reductive in execution — *in that order*. Reversing it produces either ungrounded system-talk (holistic all the way down) or well-executed answers to questions nobody asked (reductive from the start).
+
+This is also the antidote to the failure mode this repo is most at risk of: the landscape work (surveying, mapping, curating) is genuinely useful *and* infinitely extensible. Every study pass must end by paying its toll — a stated thesis, or an admission that the area isn't ready to bet on yet.
+
 ## The practice (rules of thumb for this repo)
 
 1. **Every big claim gets a smallest-possible probe.** Before an idea is promoted to [INSIGHTS.md](INSIGHTS.md), ask: what is the cheapest experiment, measurement, or decomposition that could embarrass it? If we can't name one, the idea isn't stress-tested yet.

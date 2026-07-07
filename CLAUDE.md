@@ -23,6 +23,8 @@ A **white paper on sovereign AI** (working title space: *"What It Means to Own t
 | `INSIGHTS.md` | The distillery. Promotion-only, high bar: worth telling unprompted, survives translation across five personas (engineer, life-sciences researcher, policymaker, founder, beginner), stress-tested against its strongest contrarian version. |
 | `research-engineering.md` | The method: claims get earned by probes, not asserted. |
 | `CLAUDE.md` | This file — the collaboration contract. |
+| `src/` | The lab bench — builds/probes, each traceable to a pre-existing scratchpad question. |
+| `docs/` | The writing room — survey material and white-paper composition. |
 
 - Nothing enters `INSIGHTS.md` directly. No topic gets its own folder until it has earned it in `INSIGHTS.md`.
 - **The resume trap is the standing anti-pattern** ([why](https://pracha.me/musings/posts/2026_07_03_curriculum-as-a-living-system.html#resume-trap)): never propose or build an experiment for optics (impressiveness in the white paper, portfolio value). Every build must trace back to a scratchpad question that existed *before* the build. Question-first, always.

@@ -26,6 +26,8 @@ The exploration runs the full altitude range — from the minute (a server, an S
 | [INSIGHTS.md](INSIGHTS.md) | The distillery. Only insights that earn their place — worth telling other people — get promoted here from the scratchpad. High bar, deliberately. |
 | [research-engineering.md](research-engineering.md) | The method. What "research engineering" means here: how sovereignty claims get earned through probes, builds, and measurements instead of asserted. |
 | [CLAUDE.md](CLAUDE.md) | The collaboration contract. Portable working memory for any AI collaborator joining the project — the framing, rules, working mode, and live hypotheses in one file. |
+| [src/](src/) | The lab bench. Probes, experiments, and system builds — each traceable to a scratchpad question that predates it. |
+| [docs/](docs/) | The writing room. Where survey/landscape material and the white paper get composed from promoted insights and probe write-ups. |
 
 Topics that mature in `INSIGHTS.md` will eventually expand into their own folders and deep-dives. Nothing gets its own folder until it has earned it.
 
